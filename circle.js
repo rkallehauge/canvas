@@ -150,12 +150,9 @@ for(var i = 0; i < 100; i++){
 function animate(){
     
     
-    c.clearRect(0,0,innerWidth,innerHeight);
+    //c.clearRect(0,0,innerWidth,innerHeight);
     
     for(var i = 0; i < circles.length; i++){
-        if(i == 0){
-            console.log(circles[i].x, circles[i].w, circles[i].y, circles[i].h);
-        }
         circles[i].update();
     }
     
